@@ -1,0 +1,28 @@
+/* src/components/Header.css */
+.header {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 20px; /* Adjust spacing between links */
+  }
+  
+  .nav-link {
+    color: #0B0B1D; /* Very dark blue for contrast */
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #8ab0f7; 
+  }
+  

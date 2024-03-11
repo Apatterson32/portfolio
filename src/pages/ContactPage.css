@@ -1,0 +1,34 @@
+/* ContactPage.css */
+.contactInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Keeps content centered horizontally */
+    text-align: center;
+    height: 100vh; /* Adjust if necessary */
+    padding-top: 50px;
+  }
+  
+  .contactInfoContainer h2 {
+    
+    color: #1e3e5a; /* A deep blue, aligning with your site's color theme */
+  }
+  
+  .contactList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contactList li {
+    margin: 10px 0;
+  }
+  
+  .contactList a {
+    color: #2d425a; /* Sky blue, providing a pleasant contrast */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contactList a:hover {
+    color: #C38EB4; /* Light purple for an interactive hover effect */
+  }
+  

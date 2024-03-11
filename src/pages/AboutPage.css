@@ -1,0 +1,25 @@
+/* src/components/AboutPage.css */
+.aboutPage {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .aboutPage h1 {
+    color: #0d2035;
+    text-align: left;
+    padding-top: 20px;
+  }
+  
+  .aboutPage h2 {
+    color: #0d2035; /* Sky blue for subheadings */
+    margin-top: 20px;
+  }
+  
+  .aboutPage p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #0B0B1D; /* Very dark blue */
+  }
+  

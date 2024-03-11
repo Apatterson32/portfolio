@@ -1,0 +1,47 @@
+/* HomePage.css */
+.container {
+  padding-top: 20px; /* Adjust based on your header's height */
+  display: flex;
+  justify-content: center; /* Centers the .container's content horizontally */
+  align-items: center; /* Centers the .container's content vertically */
+  min-height: calc(100vh - 140px);
+}
+
+.intro {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  gap: 20px; /* Adjust the space between the image and text */
+  width: 100%;
+  max-width: 800px; /* Adjust this value based on your design preference */
+}
+
+.profile-pic {
+  flex-shrink: 0; /* Prevents the image from shrinking */
+  width: 225px; /* Adjust based on your preference */
+  height: 225px; /* Adjust based on your preference */
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  margin-left: -20px;
+}
+
+.text-content {
+  flex-grow: 1; /* Allows text content to take up remaining space */
+  text-align: left; /* Aligns text to the left */
+  line-height: 1.6; /* Adjusts line spacing */
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    align-items: center; /* Aligns items to the center horizontally for a stacked layout */
+  }
+
+  .profile-pic {
+    margin-bottom: 20px; /* Adds space between the image and text when stacked */
+  }
+
+  .text-content {
+    text-align: center; /* Center-aligns the text for smaller screens */
+  }
+}

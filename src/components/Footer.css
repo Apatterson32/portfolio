@@ -1,0 +1,21 @@
+/* src/components/Footer.css */
+.footer {
+  width: 100%;
+  padding-top: 10px;
+  background-color: transparent;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.footer-link {
+  color: #020202; /* Sky blue for links */
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #8ab0f7; /* Light purple for hover effect */
+}
+
+  

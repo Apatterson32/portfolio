@@ -1,0 +1,24 @@
+/* src/index.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Inter', sans-serif; /* Example font, replace as needed */
+}
+
+body {
+  background: linear-gradient(to bottom, #E1CBD7, #86A8CF, #26425A);
+  color: #0B0B1D; /* Primary text color */
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #86A8CF; /* Sky blue for hover state */
+}
+
+/* Additional global styles as needed */

@@ -1,0 +1,21 @@
+/* ProjectsPage.css */
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the space between project items */
+    padding: 20px;
+    padding-top: 100px; /* Increase padding-top to push content below the header */
+  }
+  
+  .projectItem {
+    width: 300px; /* Adjust based on your preference */
+    overflow: hidden; /* Ensures the image does not overflow the container */
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: auto; /* Adjust height automatically based on the image aspect ratio */
+    object-fit: cover; /* Ensures the images cover the area nicely */
+  }
+  
