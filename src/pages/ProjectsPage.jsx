@@ -1,27 +1,32 @@
 import React from 'react';
 import './ProjectsPage.css'; 
+import IntelliStockImage from './assets/images/Intellistock.png';
+import GoogleBookSearchEngineImage from './assets/images/Google Book Search Engine.png';
+import READMEGeneratorImage from './assets/images/README Generator.png';
+import ParksPlannerImage from './assets/images/ParksPlanner.png';
+import WeatherAppImage from './assets/images/Weather App.png';
 
 
 const projects = [
   {
-    imageUrl: './src/assets/images/Intellistock.png',
-    repoUrl: 'https://github.com/akidd15/IntelliStock',
+    image: IntelliStockImage,
+    repoUrl: 'https://intellistock-production.up.railway.app/',
   },
   {
-    imageUrl: './src/assets/images/Google Book Search Engine.png',
-    repoUrl: 'https://github.com/Apatterson32/GoogleBookEngine',
+    image: GoogleBookSearchEngineImage,
+    repoUrl: 'https://book-search-engine-production-9f81.up.railway.app/',
   },
   {
-    imageUrl: './src/assets/images/README Generator.png',
+    image: READMEGeneratorImage,
     repoUrl: 'https://github.com/Apatterson32/readme-be-done',
   },
   {
-    imageUrl: './src/assets/images/ParksPlanner.png',
-    repoUrl: 'https://github.com/Apatterson32/ParksPlanner',
+    image: ParksPlannerImage,
+    repoUrl: 'https://leucisticboi.github.io/ParksPlanner/',
   },
   {
-    imageUrl: './src/assets/images/Weather App.png',
-    repoUrl: 'https://github.com/Apatterson32/butterfly-wings',
+    image: WeatherAppImage,
+    repoUrl: 'https://apatterson32.github.io/butterfly-wings/',
   },
 ];
 
@@ -31,7 +36,7 @@ const ProjectsPage = () => {
       {projects.map((project, index) => (
         <div className="projectItem" key={index}>
           <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
-            <img src={project.imageUrl} alt={project.title} className="projectImage" />
+            <img src={project.image} alt={project.title} className="projectImage" />
             <div className="projectTitle">{project.title}</div>
           </a>
         </div>
