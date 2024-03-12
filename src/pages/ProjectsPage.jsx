@@ -1,10 +1,10 @@
 import React from 'react';
 import './ProjectsPage.css'; 
-import IntelliStockImage from './assets/images/Intellistock.png';
-import GoogleBookSearchEngineImage from './assets/images/Google Book Search Engine.png';
-import READMEGeneratorImage from './assets/images/README Generator.png';
-import ParksPlannerImage from './assets/images/ParksPlanner.png';
-import WeatherAppImage from './assets/images/Weather App.png';
+import IntelliStockImage from '../assets/images/Intellistock.png';
+import GoogleBookSearchEngineImage from '../assets/images/Google Book Search Engine.png';
+import READMEGeneratorImage from '../assets/images/README Generator.png';
+import ParksPlannerImage from '../assets/images/ParksPlanner.png';
+import WeatherAppImage from '../assets/images/Weather App.png';
 
 
 const projects = [
