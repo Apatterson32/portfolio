@@ -1,12 +1,13 @@
 import React from 'react';
 import './HomePage.css';
+import ProfilePicture from '../assets/images/20190823_194954.jpg';
 
 const HomePage = () => {
   return (
     <div className="homePage">
       <div className="container">
         <div className="intro">
-          <img src="./src/assets/images/20190823_194954.jpg" alt="Alissa Patterson" className="profile-pic" />
+          <img src={ProfilePicture} alt="Alissa Patterson" className="profile-pic" />
           <div className="text-content">
             <h1>Welcome to My Portfolio</h1>
             <p>Welcome to my journey into the realm of technology! My name is Alissa Patterson and as an emerging Full Stack Developer, 
