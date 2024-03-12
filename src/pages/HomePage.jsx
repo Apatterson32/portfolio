@@ -1,6 +1,6 @@
 import React from 'react';
-import './HomePage.css'
-import './src/assets/images/20190823_194954.jpg'
+import './HomePage.css';
+import './src/assets/images/20190823_194954.jpg';
 
 const HomePage = () => {
   return (
